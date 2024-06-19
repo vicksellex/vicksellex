@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vicksellex</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #FFD700;
+        }
+        header {
+            background-color: #000;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #FFD700;
+        }
+        header h1 {
+            margin: 0;
+            color: #FFD700;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            color: #FFD700;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            border-bottom: 1px solid #FFD700;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #000;
+            border-top: 2px solid #FFD700;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #FFD700;
+            background-color: #333;
+            color: #FFD700;
+        }
+        .contact-form button {
+            background-color: #FFD700;
+            color: #000;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vicksellex</h1>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#projects">Projects</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Vicksellex, your go-to brand for exceptional services and products. We are dedicated to delivering quality and innovation in every project we undertake. Our team is passionate about making a difference and achieving excellence in all our endeavors.</p>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>At Vicksellex, we have an extensive portfolio of successful projects. From cutting-edge technology solutions to creative design projects, we bring a wealth of experience and expertise to every task. Explore some of our key projects below:</p>
+        <ul>
+            <li>Project 1: Description of project 1.</li>
+            <li>Project 2: Description of project 2.</li>
+            <li>Project 3: Description of project 3.</li>
+        </ul>
+    </section>
+    <section id="blog">
+        <h2>Blog</h2>
+        <p>Stay updated with the latest insights, trends, and stories from Vicksellex. Our blog features articles that inspire, inform, and engage our audience. Check out our latest posts:</p>
+        <ul>
+            <li>Blog Post 1: Excerpt of blog post 1.</li>
+            <li>Blog Post 2: Excerpt of blog post 2.</li>
+            <li>Blog Post 3: Excerpt of blog post 3.</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>We would love to hear from you! Reach out to us through the form below, and we'll get back to you as soon as possible.</p>
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Vicksellex. All rights reserved.</p>
+    </footer>
+</body>
+</html>
